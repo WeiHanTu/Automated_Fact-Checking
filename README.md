@@ -131,6 +131,49 @@ The results show:
 - **Test Samples**: ~3,000 claim-evidence pairs
 - **Class Distribution**: Imbalanced (40% SUPPORTS, 30% each for REFUTES/NEI)
 
+## 📈 Training and Evaluation Visualizations
+
+### Training Progress
+
+Our training process shows consistent improvement across epochs:
+
+![Training Loss and Metrics](docs/figures/loss_curve.png)
+
+*Figure 1: Training and validation loss curves showing model convergence over epochs*
+
+![Metrics Evolution](docs/figures/metrics_curve.png)
+
+*Figure 2: Accuracy and F1-score progression during training*
+
+### Model Performance Analysis
+
+#### Baseline Model Results
+
+![Baseline Confusion Matrix](docs/figures/baseline_confusion_matrix.png)
+
+*Figure 3: Confusion matrix for baseline BERT model showing class-wise prediction patterns*
+
+![Baseline Classification Report](docs/figures/baseline_classification_report.png)
+
+*Figure 4: Detailed classification report for baseline model with precision, recall, and F1-scores per class*
+
+#### Enhanced Model Results
+
+![Enhanced Confusion Matrix](docs/figures/confusion_matrix.png)
+
+*Figure 5: Confusion matrix for class-weighted training showing improved class balance*
+
+![Enhanced Classification Report](docs/figures/classification_report.png)
+
+*Figure 6: Classification report for enhanced model demonstrating performance improvements*
+
+### Key Observations from Visualizations
+
+1. **Training Stability**: Both loss curves show stable convergence without overfitting
+2. **Class Imbalance**: Confusion matrices reveal the challenge of imbalanced classes
+3. **Performance Improvement**: Enhanced model shows better class-wise performance
+4. **Metric Consistency**: F1-scores and accuracy show correlated improvements
+
 ## 🧪 Experimental Design
 
 ### Experiment 1: Baseline BERT

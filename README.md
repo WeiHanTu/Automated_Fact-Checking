@@ -239,8 +239,8 @@ Our training process shows consistent improvement across epochs:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/fact-checking-bert.git
-   cd fact-checking-bert
+   git clone https://github.com/WeiHanTu/Automated_Fact-Checking.git
+   cd Automated_Fact-Checking
    ```
 
 2. **Create virtual environment**

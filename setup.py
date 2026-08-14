@@ -14,7 +14,7 @@ setup(
     description="Fact-checking system using pretrained BERT-based transformers",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/fact-checking-bert",
+    url="https://github.com/WeiHanTu/Automated_Fact-Checking",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -42,4 +42,4 @@ setup(
             "fact-checking-train=src.main:main",
         ],
     },
-) 
+)

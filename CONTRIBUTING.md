@@ -28,8 +28,8 @@ Thank you for your interest in contributing to the Fact-checking BERT project! T
 
 1. **Fork the repository**
    ```bash
-   git clone https://github.com/yourusername/fact-checking-bert.git
-   cd fact-checking-bert
+   git clone https://github.com/WeiHanTu/Automated_Fact-Checking.git
+   cd Automated_Fact-Checking
    ```
 
 2. **Create virtual environment**
@@ -229,4 +229,4 @@ Contributors will be recognized in:
 - Release notes
 - Project documentation
 
-Thank you for contributing to the Fact-checking BERT project! 
+Thank you for contributing to the Fact-checking BERT project!
